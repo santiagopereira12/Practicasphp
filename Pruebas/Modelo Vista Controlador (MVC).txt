@@ -1,0 +1,27 @@
+Modelo Vista Controlador (MVC).
+-es un tipo de diseño que separa en capas bien definidas el desarrollo de una aplicación, esas partes son tres, el modelo
+encargado de la lógica de la aplicación y la conexión con la base de datos, el controlador es el encargado de gestionar 
+las peticiones del usuario, procesarlas invocando al modelo y mostrarlas al usuario a traves de las vistas, y estas son
+las responsables de mostrar al usuario el resultado que obtiene del modelo a traves del controlador.
+
+Pipeline de un proyecto de un desarrollo web.
+- es toda la idea de negocio requerida en la cual se lleva a cabo un levantamiento de información, un estudio o analisis
+de las diferentes formas en las cuales se puede llevar acabo la realización del proyecto.
+
+--el index es donde se realiza la salida de muestras al usuario y tambien a traves de este se realiza el envio de las
+distintas acciones que el usuario envie al controlador.
+-include()--> se utiliza para poder invocar el archivo el cual contiene codigo html o php.
+-require()-->nos comunica con el codigo del archivo invocado especificando que este es necesario, es decir obligatorio
+ya que es requerido para lograr el correcto funcionamiento del programa, por ello si el archivo el cual fue especificado
+en la funcion require() no se encuentra, este saltara directamente un error "PHP Fatal error" y el programa se detendra.
+-require_once()-->es funciona de la misma manera, solo que al este le suma una forma de impedir la carga de un mismo
+archivo más de una vez.
+
+Variables Get.
+-Son las variablesl las cuales se declaran o se crean a partir de la ruta URL, tambien se definen como variables de 
+Consultas, estas se empiezan a declarar por medio de signo de interrogación (al momento de declarar más variables en
+la misma URL se separan con el signo "&")...
+	https://www.paginainicial.com/primeraPagina?variable=estaesunavariable&variable2=estaesotravariable
+
+Variable Post.
+-es una variable identica a las variables GET ya que esta consiste en realizar el pase de parametros de una pagina a otra

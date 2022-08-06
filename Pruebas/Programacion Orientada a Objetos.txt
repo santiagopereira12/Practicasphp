@@ -1,0 +1,43 @@
+Programación Orientada a Objetos (POO).
+-es un para digma de programación que utiliza objetos e interaciones en el diseño de un sistema.
+un paradigma es cuyo núcleo central suministra la base y modelo para resolver problemas.
+la POO debe guardar ciertas caracteristicas que la identifican y diferencian de otros paradigmas de programación.
+
+Abstracción.
+-asilación de un elemento de su contexto, define las caracteristicas esenciales de un objeto.
+
+Encapsulamiento.
+-reune al mismo nivel de abstracción, a todos los elementos que puedan considerarse pertenecientesa una misma entidad.
+
+Modularidad.
+-caracteiristica que permite dividir una aplicación en varias partes más pequeñas (denominadas modulos), independientes
+unas de otras.
+
+Aislamiento.
+-los objetos estan aislados del exterior, protegiendo a sus propiedades para no ser modificadas por aquellos que no
+tengan derecho acceder a las mismas.
+
+Polimorfismo.
+-es la capacidad que da a diferentes objetos, la posibilidad de cotar con métodos, propiedades y atributos de igual nombre
+sin que los de un objeto interfieran con el otro.
+
+Herencia.
+-es la relación existente entre dos o más clases, donde una es la principal(Padre) y otras son las secundarias y dependen
+(heredan) de ellas (clases "hijas"), donde a la vez, los objetos heredan las caracteristicas de los objetos de los cuales
+heredan.
+
+Recolección de basura
+-es la tecnica que consiste en destruir aquellos objetos cuando ya no son necesarios, liberandolos de la memoria.
+
+clases...
+-es un modelo que se utiliza para crear objetos que comparten un mismo comportamiento, estado e identidad, recordar que
+en la programación orientada a objetos se deben realizar las clases al momento de empezar a escribir el codigo.
+#propiedades
+--son las caracteristicas que posee un objeto, estas tienen publicas o privadas
+#metodos
+--es el algoritmo asociado a un objeto que indica la capacidad de lo que este puede llegar a realizar, lo que diferencia
+los metodos de las funciones, es que los metodos son las funciones que se encuentras dentro de una clase en POO, y las
+funciones son aquellas las cuales van suentas en el algoritmo dentro de la programación estructurada.
+
+#objeto
+--es aquella entidad provista de métodos o mensajes a las cuales responde propiedades con valores concretos.
