@@ -25,3 +25,4 @@ la misma URL se separan con el signo "&")...
 
 Variable Post.
 -es una variable identica a las variables GET ya que esta consiste en realizar el pase de parametros de una pagina a otra
+y son variables privadas

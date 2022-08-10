@@ -1,0 +1,3 @@
+Metodos Estaticos.
+-son metodos los cuales hacen parte de la programación orientada a objetos, se utilizan para poder generarla realización
+de los metodos de una forma automatica
