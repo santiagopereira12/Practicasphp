@@ -1,0 +1,15 @@
+PDO (PHP DATA OBJECT).
+-es una extensión de php que consiste en desarrollar una capa de abstracción para poder acceder a diferentes tipos de 
+bases de datos.
+Utilizando PDO se logran estandarizar los diferentes mecanismos para realizar la conexión a una base de datos, así como
+recuperar y modificar información. Sin embargo, PDO no estandariza SQL lo que significa que se debe lidiar con las 
+diferentes sintaxis de las instrucciones en cada administrador de base de datos.
+
+SQL
+-es un lenguaje de programación estandar e interactivo para la obtención de información desde una base de datos y para
+actualizarla.
+Las consultas toman la forma de un lengaje de comandos que permite seleccionar, insertar, actualizar y consultar
+la ubicación de los datos, y más. Tambien existe una interfaz de programación.
+CRUD
+--este es un termino clave que permite entender SQL y nos explica cuatro opciones principales, crear, leer, editar y
+eliminar.
