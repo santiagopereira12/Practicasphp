@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 
 <head>
@@ -16,7 +19,7 @@
 
 <body>
     <div class="container-fluid">
-        <h3 class="text-center py-3">HOLA MUNDO</h3>
+        <h3 class="text-center py-3">PAGINA MUESTRA</h3>
     </div>
     <div class="container-fluid bg-light">
         <div class="container">
@@ -91,6 +94,7 @@
                     $_GET["modulo"] == "registro" ||
                     $_GET["modulo"] == "ingreso" ||
                     $_GET["modulo"] == "inicio" ||
+                    $_GET["modulo"] == "editar" ||
                     $_GET["modulo"] == "salida"
                 ) {
                     include "Paginas/" . $_GET["modulo"] . ".php";

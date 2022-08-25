@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center text-center">
-    <form class="p-5 bg-light" method="POST">
+    <form class="p-5 bg-light" method="post">
         <div class="form-group">
             <label for="email">Ingresa el correo:</label>
             <input type="email" class="form-control" placeholder="enter email" id="email" name="registroCorreo">
