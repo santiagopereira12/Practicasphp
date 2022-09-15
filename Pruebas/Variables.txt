@@ -1,5 +1,8 @@
 Variables en php.
 - todas las variables en el lenguaje php deben nicializarse con el signo "$".
+- las variables constantes son aquellas las cuales su valor no varia durante la ejecución de un script y su forma
+de definición es con un "define" (como buena practica se deben definir en MAYUSCULA)...
+	define("NOMBRE_DE_LA_CONSTANTE", valor de la constante);
 
 - cuando colocamos un texto en el echo y necesitamos concatenar la variable, no es necesario realizar la concatenación
 fuera de las comillas, se puede realizar esto dentro de las mismas, ejemplo...
