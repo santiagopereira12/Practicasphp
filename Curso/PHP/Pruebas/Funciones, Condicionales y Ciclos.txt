@@ -1,0 +1,80 @@
+Funciones.
+-las funciones son aquellas las cuales tienen un pedaso de codigo encerrado entre llaves, estas se imprimen en pantalla
+unicamente llamando a la función.
+
+sin parametro
+-estas funcines son solo aquella que tienen el nombre de la función y no llevan ninguna variable.
+	function saludo(){
+		echo "Hola mundo";
+	}
+	saludo();
+
+con parametro
+-estas funciones si llevan una variable declarada dentro de la misma aparte del nombre que se le da a la función, lleva
+una variable declarada, para que se pueda evidenciar la impresión en la pantalla, una vez se haga el llamamiento de la
+función dentro de los parentesis se le da valos a la variable la cual de declaro.
+	function despedida($despedida){
+		echo $despedida;
+	}
+	despedida("Adios Mundo");
+
+con retorno
+-esta función es similar a la función con parametro, la diferencia de esta es que tiene un caracter especial que retorna
+a la cariable declarada y se llama a partir de un echo.
+	function retorno($retornar){
+		return $retornar;
+	}
+	echo retorno("retornando");
+
+Condicionales y Ciclos.
+Condicionales...
+-son las sentencias las cuales especifican una acción en determinados puntos, comparando dos significados verdaderos o
+falsos.
+	$a = 10;
+	$b = 15;
+	if($a > $b){
+		echo "la variable a es mayor que la variable b";
+	}else{
+		echo "la variable a es menor a la variable b";
+	}
+Switch...
+-son condicionales definidas en funciones pero estas se dividen en casos, y cada caso contituye a una acción, los casos
+se cierran con un breack, aqui tambien podemos encontrar un para metro default que indica la acción a realizar en caso
+de que los parametros establecidos no se cumplan.
+	$día = "Lunes";
+	switch($dia){
+		case 'lunes':
+		echo "trabajar todo el día";
+		breack;
+		case 'miercoles':
+		echo "estudiar en la noche";
+		breack;
+		case 'viernes':
+		echo "salir a distraerse";
+		breack;
+		default: echo "descansar";
+	}
+Ciclos...
+-sirven para realizar la incrementación de valores o repetición de acciones n numero de veces.
+while...
+-es un ciclo repetitivo que se ejerce para realizar el incremento de una variable declarada, dentro de esta siempre 
+y cuando se cumpla con la condición especificada...
+	$n = 5;
+	while($n < 10){
+		$n++;
+		echo $n;
+	}
+do while...
+-este ciclo es similar al ciclo while con la diferencia que este acumula los datos hasta que la sentencia while corta
+con la longitud de estedos dando un cierres, parecido al breack en las condicionales switch.
+	$x = 5;
+	do{
+		$x++;
+		echo $x;
+	}while($x = 10);
+for...
+-es un contador el cual es simlar a los ciclos while y do while, la diferencia con este ultimos e que se realiza
+la declaración y condiciones dentro de los parametros y no en las llaves, y se declara con la letra i...
+	for($i = 0; $i < 10; $i++){
+		echo $i;
+	}

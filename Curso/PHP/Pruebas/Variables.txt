@@ -1,0 +1,33 @@
+Variables en php.
+- todas las variables en el lenguaje php deben nicializarse con el signo "$".
+
+- cuando colocamos un texto en el echo y necesitamos concatenar la variable, no es necesario realizar la concatenación
+fuera de las comillas, se puede realizar esto dentro de las mismas, ejemplo...
+	$variable = 55;
+	echo "esto es un texto unido a la variable numerica $variable";
+
+-las variables booleanas son aquellas las cuales inican si el valor es falso o verdadero, al momento de declarar esta 
+e imprimirla en pantalla se vera reflejada como 1 o 0, pero el valor 0 se expodra como una casilla vacia.
+-las variables de tipo arreglo(Arrays), son aquellas las cuales permiten guardar más de una información ya sean
+de tipo texto o numerico, y se representan de la siguiente manera...
+	$variableTexto = ["texto1","texto2","texto3"];
+	$variableNumerica =[1,2,3];
+
+los arreglos con propiedades son aquellos los cuales al momento de escribir una condición dentro de las llaves a estas
+condiciones se les otorga un valor(recordar que al momento de asignarles un valor se realiza con el signo "=" y ">")
+y para lograr imprimirlas en pantalla no se indica el indice del objeto sino se indica la variable y esta nos va mostrar
+los valores asigados...
+	$variablePropiedades = ["variable1"=>"valor 1","variable2"=>"valor2"];
+	echo $variablePropiedades["variable1"];
+
+las variables objetos son identicas a los arreglos con propiedades, la diferencia es que esta inicia
+con la palabra "object" entre parentisis y luego en las llaves iniciamos declarano las variables, y para llamarla
+se realiza llamando la variable y con un guion "-" unido a un mayor que ">", y luego llamando el objeto...
+	$variableObjeto = (object)["objeto1"=>"declaracion1","objeto2"=>"declaracion2"];
+	echo "imprimir variable objeto: $variableObjeto->objeto1";
+	echo $fvariableOjeto->objeto2;
+
+VAR_DUMP
+-es un metodo que nos permite evidenciar o muestra el tipo de variable el cual se esta utilizando y la longitud de sus
+caracteres segun como esta se halla declarado...
+	var_dump($variable);

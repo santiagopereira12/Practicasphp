@@ -1,0 +1,6 @@
+Bases de datos.
+Mysql
+--es un sistema para la gestion de base de datos relacionadas, funciona como software libre dentro del esquema de licencias
+GNU GPL.
+es muy utilizado en aplicaciones web como worpress, drupal, joomla, mysql es eficiente y rapida en la lectura de datos,
+esto lograr hacer a mysql hacer ideal para la realización de aplicaciones.
