@@ -1,0 +1,23 @@
+Render 
+Tipos de renderización
+-Client Side Rendering (CSR).
+--> es el tipo de renderizado React.js o Vue.js aqui es el navegador del cliente quien, por medio de codigo Javascript,
+se encarga de armar toda la estructura de la pagina.
+
+-Static Side Generation (SSG).
+--> este tipo de renderizado se hace desde que contruimos nuestra aplicación en en tiempo de desarrollo. Es comun
+verlo cuando trabajamos con frameworks como Next.js o Nuxt.js.
+Todo el HTML es contruido en tiempo de build, es decir, desde que desarrollamos, lo que hace que no sea necesario un
+servidor.
+función--> hacemos un build de nuestra aplicación.
+	   el framework en cuestión generá plantillas HTML prerenderizadas.
+	   en cada petición, nuestro servidor mandará dichas plantillas sin tener que procesar nada.
+	   la plantilla se renderiza en el navegador
+
+-Server Side Rendering (SSR).
+--> es el tipo de renderizado más común en la web. Este renderizado se basa en que es nuestro servidor quien procesa
+todo el código y manda todo el código ya procesado a nuestro navegador.
+es el más común en lenguajes backend.
+función--> el usuario hace un request al servidor.
+	   el servidor ejecuta todo el código backend y genera las plantillas necesarias por cada request.
+	   la página se envía al navegador.
