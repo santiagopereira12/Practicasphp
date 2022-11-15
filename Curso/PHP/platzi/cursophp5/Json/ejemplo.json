@@ -1,0 +1,9 @@
+{
+    "name": "curso",
+    "description": "aprendiendo un nuevo lenguaje completo",
+    "courses": {
+        "back-end": ["php", "VUEjs"],
+        "front-end basic": ["Json", "HTML"],
+        "front-end advance": ["NODEjs", "Angular"]
+    }
+}
