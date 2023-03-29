@@ -1,0 +1,14 @@
+Para iniciar la configuración de composer iniciamos colocando el comando en la ruta de la carpeta.
+--> composer require --dev phpunit/phpunit
+
+Para registrar configuración en el sistema autoload se corre el siguiente comando.
+--> composer dump
+
+
+Generamos documento xml y configuramos.
+--> <?xml version="1.0" encoding="UTF-8"?>
+	<phpunit bootstrap="vendor/autoload.php" colors="true">
+		<testsuite name="test directory">
+			<directory>tests</directory
+		</testsuite>
+	</phpunit>
