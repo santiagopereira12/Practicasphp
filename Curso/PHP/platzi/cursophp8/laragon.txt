@@ -1,0 +1,10 @@
+ingresamos a la pagina principal de laragon
+
+vamos a la opción de descargar y desacargamos la version full
+
+al instalar seleccionamos el idioma de preferencia y tenre en cuenta si vamos a permitir que laragon 
+inicie una vez el equipo corra si no quitamos seleccion de esa opción.
+luego de seleccionar instalamos.
+
+instalamos y una vez al abrir el panel de control mde laragon e iniciamos todo le damos permitir para 
+poder correr los programas.

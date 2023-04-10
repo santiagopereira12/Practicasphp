@@ -1,0 +1,29 @@
+descargar maquina virtual (virtualbox)
+
+una vez instalado, descargamos e instalamos vagrant amd64
+una vez instalado reiniciamos el computador.
+
+una vez el equipo se reinicia ingresamos nuevamente a la pagina de vagrant
+y esta vez ingresamos en search boxes(si no encuentras directamente la opción puedes ingresar
+introcuciendo este link directamente. https://app.vagrantup.com/boxes/search)
+
+creampos una nueva carpeta - mkdir "project"
+ingresamos a la carpeta -cd "project"
+
+
+una vez instalado ingresamos los siguientes comandos (ubuntu)
+	vagrant init ubuntu/trusty64
+	vagrant up
+
+cuando se ejecuten estos comandops y se termine la instalación de vagrant, ingresamos al entorno vitual
+con el comando
+	vagrant ssh
+
+para salir de la maquina virtual introducimos el comando
+	exit
+
+y para apagar la maquina virtual introducimos el comando 
+	vagrant halt
+
+para volver a iniciarla solo es necesario escribir el comando
+	vagrant up
