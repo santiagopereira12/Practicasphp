@@ -1,0 +1,20 @@
+CONFIGURACION VIRTUAL HOST EN WINDOWS
+
+en apache le damos eclick en httpd.conf, una vez dentro de este archivo, buscamos si se esta utilizando 
+la opción de virtual host (buscar "vhosts")
+en caso de que este comentada y no se este aplicando la descomentamos y la aplicamos
+
+luego entramos a la carpeta de xampp, luego a la carpeta de apache y a la carpeta conf y por ultimo
+a la carpeta extra
+una vez dentro de esta carpeta abrimos el archivo "httpd-vhost.conf"
+copiamos uno de los ejemplos y lo descomentamos
+en la opción de DocumentRoot, especificamos la ruta en la cual se encuentra el proyecto que queremos publicar
+en ServerName ponemos la URL que nos queramos inventar
+en ServerAlias colocamos la misma ruta que especificamos en servername
+
+una vez este configurado el virtal host
+entramos al disco c, windows, System32, drivers, y por ultimo a la carpeta etc
+Abrimos el archivo host y descomentamos la ultima linea de localhost
+copiamos la misma ip especificamnos el nombre que dimos en serverName
+
+
