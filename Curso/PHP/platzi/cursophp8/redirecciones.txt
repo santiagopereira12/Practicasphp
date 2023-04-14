@@ -1,0 +1,11 @@
+Redirecciones
+
+funcion header()
+--> en el modelo cliente/servidor es comun querer enviar informacion extra(autenticacion, control de cookies,
+control de cache, etc). Esto lo podemos hacer con la funcion header.
+
+uno de los header que podemos mandar son redirects, es decir, el servidor le puede responder al navegador.
+
+header("location: platzi.com")
+
+header("location: page.php")
